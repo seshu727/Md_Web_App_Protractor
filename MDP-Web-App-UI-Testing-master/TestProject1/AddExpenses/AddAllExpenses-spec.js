@@ -1,7 +1,7 @@
 var homePage = require('./Expenses.po.js');
 describe('Login into MDP', function() {
 
-    var AddExpensesPage = new homePage();;
+    var AddExpensesPage = new homePage();;;
     browser.ignoreSynchronization = true;
     var NFY="You can save this expense but you can't submit it until after the end date of the expense (Camp / Recreational Program expenses are exempt from this rule)."
     var PFY="This expense was incurred in last fiscal year. The grace period for using last year's funding has ended. You can still submit the expense but your Regional Office will determine if it will be paid."
